@@ -1,14 +1,14 @@
-<?php
-$descriptionHome = \DB::table('table_home')->get();
-
-?>
 @extends('layout')
 
-@section('title' , 'Home | ' . $descriptionHome->descripcion)
+@section('title' , 'Home')
 
 
 @section('content')
-    <h1>{{ $descriptionItem->description}}</h1>
+    <ul>
+        @forelse($home as $homeItem)
+            <li>{{ homeItem->description }}</li>
+        @endforelse
+    </ul>
 
 
 @endsection
