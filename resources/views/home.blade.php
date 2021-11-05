@@ -1,8 +1,14 @@
+<?php
+$descriptionHome = \DB::table('table_home')->get();
+
+?>
 @extends('layout')
 
-@section('title' , 'Home')
+@section('title' , 'Home | ' . $descriptionHome->descripcion)
 
 
 @section('content')
-    <h1>Home</h1>
+    <h1>{{ $descriptionItem->description}}</h1>
+
+
 @endsection

@@ -14,8 +14,7 @@ class CreateTableHome extends Migration
     public function up()
     {
         Schema::create('table_home', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->timestamps();
+            $table->text('descripcion');
         });
     }
 
