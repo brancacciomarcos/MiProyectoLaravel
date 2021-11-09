@@ -16,10 +16,10 @@ class homeController extends Controller
     {
         $home = Home::get();
 
-        return view('home', compact('home'));
+        return view('home')->with('home', $home);
     }
 
-    public function show(description)
+    public function show($description)
     {
 
         return view('home');
