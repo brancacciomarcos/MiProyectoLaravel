@@ -1,0 +1,14 @@
+h1 {
+    color: whitesmoke
+}
+
+.active a {
+    color:rgb(67, 177, 241);
+    text-decoration: none;
+}
+
+.main {
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-tecnologia-abstracta-codigo-programacion_34663-61.jpg?size=626&ext=jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
