@@ -6,7 +6,7 @@
 @section('content')
     <ul>
         @forelse($home as $homeItem)
-            <li>{{ $homeItem->description }}</li>
+            <li class="text">{{ $homeItem->description }}</li>
         @empty
             <li>No hay elementos para mostrar</li>
         @endforelse

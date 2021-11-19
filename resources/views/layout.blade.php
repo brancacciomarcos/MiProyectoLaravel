@@ -12,8 +12,9 @@
 <body class="main">
     <header>
         @include('partials.nav')
+        @yield('content')
     </header>
 
-    @yield('content')
+    
 </body>
 </html>
