@@ -19,6 +19,6 @@ class MessageController extends Controller
         Mail::to('Pruebas@mails.com')->queue(new MessageReceived($message));
 
 
-        return 'Mensaje enviado';
+        return view('Mensaje-enviado');
     }
 }

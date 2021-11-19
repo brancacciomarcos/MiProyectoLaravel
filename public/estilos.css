@@ -1,9 +1,17 @@
 h1 {
-    color: whitesmoke
+    
+    color: rgb(250, 158, 52);
+    font-size: xx-large;
+}
+h2 {
+    
+    color: rgb(250, 158, 52);
+    font-size: large;
 }
 
+
 .active a {
-    color:rgb(16, 243, 243);
+    color:rgb(243, 137, 16);
     text-decoration: none;
 }
 
@@ -14,5 +22,11 @@ h1 {
 }
 
 .text {
-    color: rgb(250, 250, 250);
+    background: #000000c0; 
+    color: #f0a721; 
+    font-size: large;
+    font-weight: bold; 
+    padding: 15px; 
+    border: 2px solid #2528db69; 
+    border-radius: 6px;
 }
