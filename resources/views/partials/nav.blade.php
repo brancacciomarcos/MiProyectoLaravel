@@ -12,6 +12,10 @@
                 @lang('Contact')
             </a>
         </li>
+        <li class="nav-item {{ setActive('projects') }}">
+            <a href="{{ route('projects') }}">
+            </a>
+        </li>
     </ul>
 </nav>
 
