@@ -14,6 +14,7 @@
         </li>
         <li class="nav-item {{ setActive('projects') }}">
             <a href="{{ route('projects') }}">
+                @lang('Projects')
             </a>
         </li>
     </ul>

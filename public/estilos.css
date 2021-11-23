@@ -3,13 +3,6 @@ h1 {
     color: rgb(250, 158, 52);
     font-size: xx-large;
 }
-h2 {
-    
-    color: rgb(250, 158, 52);
-    font-size: large;
-    
-}
-
 
 .active a {
     color:rgb(243, 137, 16);
@@ -44,4 +37,15 @@ h2 {
 .navbar {
     color: rgb(243, 137, 16);
     
+}
+
+.texto-centrado {
+    color: rgb(247, 155, 36);
+    font-size: xx-large;
+    margin-top: 20%;
+    text-align: center;
+    font-style: critter;
+    background-color: rgba(243, 235, 235, 0.829);
+    border: 2px solid #fc900375; 
+    border-radius: 6px;
 }
