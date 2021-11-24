@@ -17,6 +17,10 @@
                 @lang('Projects')
             </a>
         </li>
+        <li class="nav-item {{ setActive('about') }}">
+            <a href="{{ route('about') }}">
+                Quién soy
+            </a>
     </ul>
 </nav>
 

@@ -12,5 +12,4 @@
         @endforelse
     </ul>
 
-
 @endsection

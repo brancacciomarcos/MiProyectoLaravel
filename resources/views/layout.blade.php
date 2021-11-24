@@ -10,11 +10,11 @@
 </head>
 
 <body class="main">
-    <header>
+    <header class="header">
         @include('partials.nav')
-        @yield('content')
     </header>
-
+    
+    @yield('content')
     
 </body>
 </html>
