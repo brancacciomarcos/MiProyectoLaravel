@@ -1,26 +1,28 @@
-<nav class="navbar bg-white shadow-sm">
-    <a class="navbar-brand" href="{{ route('home') }}">
-    
-    <ul class="nav nav-pills">
-        <li class="nav-item {{ setActive('home') }}">
-            <a class="nav-link" href="{{ route('home') }}">
+<nav class="navbar">
+
+    <ul class="nav-menu">
+        <li class="nav-menu-item {{ setActive('home') }}">
+            <a class="nav-menu-link" href="{{ route('home') }}">
                 @lang('Home')
             </a>
         </li>
-        <li class="nav-item {{ setActive('contact') }}">
-            <a href="{{ route('contact') }}">
+        <li class="nav-menu-item {{ setActive('contact') }}">
+            <a class="nav-menu-link" href="{{ route('contact') }}">
                 @lang('Contact')
             </a>
         </li>
-        <li class="nav-item {{ setActive('projects') }}">
-            <a href="{{ route('projects') }}">
+        <li class="nav-menu-item {{ setActive('projects') }}">
+            <a class="nav-menu-link" href="{{ route('projects') }}">
                 @lang('Projects')
             </a>
         </li>
-        <li class="nav-item {{ setActive('about') }}">
-            <a href="{{ route('about') }}">
+        <li class="nav-menu-item {{ setActive('about') }}">
+            <a class="nav-menu-link" href="{{ route('about') }}">
                 Quién soy
             </a>
     </ul>
+    <button class="toggle">
+        <i class="fas fa-bars"></i>
+    </button>
 </nav>
 

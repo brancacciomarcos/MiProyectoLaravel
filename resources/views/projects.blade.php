@@ -4,6 +4,6 @@
 
 
 @section('content')
-    <h1 class='texto-centrado'>Espacio reservado para futuros proyectos.</h1>
+    <h1 class='text-projects'>Espacio reservado para futuros proyectos.</h1>
 
 @endsection

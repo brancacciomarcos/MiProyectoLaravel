@@ -4,7 +4,7 @@
 
 @section('content')
     <h1>{{ __('Contact') }}</h1>
-    <div class="formulario">
+    <div class="contact-form">
         <form method="POST" action="{{ route('messages.store') }}">
             @csrf
             <input name="name" placeholder="Nombre..." value="{{ old('name') }}"><br>
@@ -19,7 +19,7 @@
             <textarea name="content" placeholder="Mensaje...">{{ old('content') }}</textarea><br>
             {!! $errors->first('content', '<strong>:message</strong><br>') !!}
 
-            <button>@lang('Send')</button>
+            <button class="boton-color-contact">@lang('Send')</button>
         </form>
     </div>
 @endsection

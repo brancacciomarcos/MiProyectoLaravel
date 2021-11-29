@@ -1,13 +1,4 @@
-h1 {
-    
-    color: rgb(250, 158, 52);
-    font-size: xx-large;
-}
-
-.active a {
-    color:rgb(250, 158, 52);
-    text-decoration: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 .main {
     background-image: url("img/fondo-pagina.jpg");
@@ -17,13 +8,66 @@ h1 {
 
 .header {
     color: rgb(250, 158, 52);
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
-.nav-item {
-    color: rgb(173, 8, 132);
+.navbar {
+    color: rgb(250, 158, 52);
+    font-family: "Nunito";
+    display:flex;
+    justify-content: left;
 }
 
-.text {
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 20px;
+    margin: 0 10px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link {
+    color: rgb(52, 227, 250);
+}
+
+.nav-menu-link:hover {
+    color:rgb(52, 227, 250);
+    background-color: rgba(255, 255, 255, 0.527);
+    border-color: rgba(0, 0, 0, 0.993);
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.active a {
+    color:rgb(250, 158, 52);
+    text-decoration: none;
+}
+
+.toggle {
+    color: rgb(52, 227, 250);
+    background-color: rgb(2, 2, 2);
+    border-color: rgb(52, 227, 250);
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}
+
+h1 {
+    
+    color: rgb(250, 158, 52);
+    font-size: xx-large;
+}
+
+.text-home {
     background: #000000cc; 
     color: rgb(250, 158, 52);
     font-size: large;
@@ -31,23 +75,23 @@ h1 {
     padding: 15px; 
     border: 2px solid #46dcf769; 
     border-radius: 6px;
-    float:left;
+    float: left;
 }
 
-.formulario {
+.contact-form {
+    
     color:rgb(235, 6, 6);
     background:rgba(255, 255, 255, 0.788);
-    float: left;
     border: 2px solid #fc900375; 
     border-radius: 6px;
-    
-}
-.navbar {
-    color: rgb(250, 158, 52);
-    
+    float: left;
 }
 
-.texto-centrado {
+.boton-color-contact {
+    color: rgba(0, 0, 0, 0.993);
+}
+
+.text-projects {
     color: rgb(250, 158, 52);
     font-size: xx-large;
     margin-top: 15%;
@@ -63,6 +107,48 @@ h1 {
     color: rgb(250, 158, 52);
     background-color: rgba(0, 0, 0, 0.795);
     border: 2px solid #0ad5e475; 
-    border-radius: 50px;
+    border-radius: 10px;   
+}
+
+@media only screen and (max-width : 900px) {
+    .header {
+        height: 300px;
+        width: 100%;
+    }
     
+    .nav-menu {
+        flex-direction: column;
+        
+    }
+    
+    .nav-menu-item {
+        font-size: 20px;
+        margin: 0 10px;
+        text-transform: uppercase;
+        width: max-content;
+    }
+
+    .text-home {
+        background: #000000cc; 
+        color: rgb(250, 158, 52);
+        font-size: large;
+        font-weight: bold; 
+        padding: 15px; 
+        border: 2px solid #46dcf769; 
+        border-radius: 6px;
+        float:left;
+    }
+    
+    .contact-form {
+        
+        color:rgb(235, 6, 6);
+        background:rgba(255, 255, 255, 0.788);
+        float: left;
+        border: 2px solid #fc900375; 
+        border-radius: 6px;
+    }
+    .toggle {
+        display: block;
+
+    }
 }
