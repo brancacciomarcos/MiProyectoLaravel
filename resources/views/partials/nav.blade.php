@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg navbar-light bg-custom fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-custom">
     <li class="nav-menu-item {{ setActive('home') }}">
         <a class="nav-menu-link" href="{{ route('home') }}">
             @lang('Home')
@@ -25,6 +25,7 @@
             <a class="nav-menu-link" href="{{ route('about') }}">
                 Quién soy
             </a>
+        </li>
       </ul>
       
     </div>
