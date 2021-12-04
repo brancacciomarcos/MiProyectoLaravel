@@ -23,5 +23,8 @@
     </header>
     
     @yield('content')
+    <footer>
+        
+    </footer>
 </body>
 </html>

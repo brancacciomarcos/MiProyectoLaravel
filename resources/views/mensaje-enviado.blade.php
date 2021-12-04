@@ -5,6 +5,6 @@
 @section('content')
 
 
- <h2 class='texto-centrado'>Tu mensaje fue enviado con éxito.</h2>
+ <h2 class='mensaje-enviado-text'>Tu mensaje fue enviado con éxito.</h2>
 
 @endsection

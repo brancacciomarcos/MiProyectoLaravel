@@ -9,6 +9,9 @@ class MessageController extends Controller
 {
     public function store()
     {
+        $titulo = 'Mensaje-enviado';
+
+
         $message = request()->validate([
             'name' => 'required',
             'email' => 'required|email',
@@ -19,6 +22,13 @@ class MessageController extends Controller
         Mail::to('Pruebas@mails.com')->queue(new MessageReceived($message));
 
 
-        return view('Mensaje-enviado');
+        return view('Mensaje-enviado')->with('titulo', $titulo);
+    }
+
+    public function index()
+    {
+        $titulo = 'Contact';
+        
+        return view('contact')->with('titulo', $titulo);
     }
 }

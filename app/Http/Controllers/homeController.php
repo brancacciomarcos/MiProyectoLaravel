@@ -15,8 +15,11 @@ class homeController extends Controller
     public function index()
     {
         $home = Home::get();
+        $titulo = 'Home';
 
-        return view('home')->with('home', $home);
+        return view('home')
+                ->with('home', $home)
+                ->with('titulo', $titulo);
     }
 
     public function show($description)
