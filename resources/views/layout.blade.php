@@ -22,9 +22,33 @@
         @include('partials.nav')
     </header>
     
-    @yield('content')
-    <footer>
-        
+    <div class='content'>
+        @yield('content')
+    </div>
+
+    <footer class='footer'>
+        <div class='iconos'>
+            <div class='iconos-fila1'>
+                <img src="img/icon-php.png" alt='PHP'>
+                <img src="img/icon-html.png" alt='HTML'>
+                <img src="img/icon-css.png" alt='CSS'>
+                <img src="img/icon-js.png" alt='JS'>
+            </div>
+
+            <div class='iconos-fila2'>
+                <img src="img/icon-bootstrap.png" alt='Bootstrap'>
+                <img src="img/icon-jquery.png" alt='JQuery'>
+                <img src="img/icon-github.png" alt='GitHub'>
+                <img src="img/icon-git.png" alt='Git'>
+            </div>
+
+            <div class='iconos-fila3'>
+                <img src="img/icon-mysql.png" alt='MySQL'>
+                <img src="img/icon-laravel.png" alt='Laravel'>
+                <img src="img/icon-vscode.png" alt='VSCode'>
+            </div>
+            
+        </div>
     </footer>
 </body>
 </html>
