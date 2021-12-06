@@ -22,16 +22,8 @@
     list-style: none;
 }
 
-/* .navbar-toggler {
-    background: rgba(250, 187, 52, 0);
-    border-style: groove;
-    border-width: 2px;
-    border-color: rgb(52, 227, 250);
-    color:rgb(52, 227, 250)
-} */
-
 .boton-nav {
-    background: rgba(250, 187, 52, 0);
+    background: rgba(250, 158, 52, 0.226);
     border-style: groove;
     border-width: 5px;
     border-color: rgb(52, 227, 250);
@@ -68,16 +60,21 @@ h1 {
     font-size: xx-large;
 }
 
+.content {
+    margin-top: 90px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
 .text-home {
     background: #000000cc; 
     color: rgb(250, 158, 52);
-    margin-top: 90px;
     font-size: large;
     font-weight: bold; 
     padding: 15px; 
     border: 2px solid #46dcf769; 
     border-radius: 6px;
-    float: left;
+    margin-top: 10px;
 }
 
 .contact-form {
@@ -86,8 +83,7 @@ h1 {
     background:rgba(255, 255, 255, 0.788);
     border: 2px solid #fc900375; 
     border-radius: 6px;
-    float: left;
-    position: fixed;
+    width: max-content;
 }
 
 .boton-color-contact {
@@ -130,11 +126,5 @@ h1 {
     color:rgb(52, 227, 250);
     text-decoration: none;
     font-size: 30px;
-}
-
-.footer {
-    margin-top: 400px;
-    bottom: 0;
-    border: 5px solid darkblue;
 }
 

@@ -3,8 +3,9 @@
 <head>
     <title>@yield('title')</title>
     <meta charset="utf-8">
-    <meta name="keywords" content="Desarrollador Web, programador, back-end">
-    <meta name="description" content="Estudiante en desarrollo web en busqueda de empleo, demuestra sus capacidades basicas.">
+    <meta name="keywords" content="Desarrollador Web, programador, back-end, junior, desarrollador junior, trainee">
+    <meta name="description" content="Estudiante en desarrollo web en busqueda de empleo, demuestra sus capacidades basicas.
+    Nota: no traduje el titulo en la vista home a inicio, porque me gusta mas como queda Home">
     <meta name="author" content="Brancaccio Marcos">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -26,29 +27,5 @@
         @yield('content')
     </div>
 
-    <footer class='footer'>
-        <div class='iconos'>
-            <div class='iconos-fila1'>
-                <img src="img/icon-php.png" alt='PHP'>
-                <img src="img/icon-html.png" alt='HTML'>
-                <img src="img/icon-css.png" alt='CSS'>
-                <img src="img/icon-js.png" alt='JS'>
-            </div>
-
-            <div class='iconos-fila2'>
-                <img src="img/icon-bootstrap.png" alt='Bootstrap'>
-                <img src="img/icon-jquery.png" alt='JQuery'>
-                <img src="img/icon-github.png" alt='GitHub'>
-                <img src="img/icon-git.png" alt='Git'>
-            </div>
-
-            <div class='iconos-fila3'>
-                <img src="img/icon-mysql.png" alt='MySQL'>
-                <img src="img/icon-laravel.png" alt='Laravel'>
-                <img src="img/icon-vscode.png" alt='VSCode'>
-            </div>
-            
-        </div>
-    </footer>
 </body>
 </html>
