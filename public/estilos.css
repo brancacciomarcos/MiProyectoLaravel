@@ -23,7 +23,7 @@
 }
 
 .boton-nav {
-    background: rgba(250, 158, 52, 0.226);
+    background: rgb(250, 158, 52);
     border-style: groove;
     border-width: 5px;
     border-color: rgb(52, 227, 250);
